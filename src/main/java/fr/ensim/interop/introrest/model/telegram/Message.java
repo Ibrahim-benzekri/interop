@@ -19,6 +19,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Message implements BotApiObject {
+
 	private static final String MESSAGEID_FIELD = "message_id";
 	private static final String FROM_FIELD = "from";
 	private static final String DATE_FIELD = "date";

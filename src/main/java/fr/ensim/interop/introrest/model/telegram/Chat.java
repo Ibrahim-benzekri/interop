@@ -18,6 +18,13 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Chat implements BotApiObject {
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     private static final String ID_FIELD = "id";
     private static final String TYPE_FIELD = "type";
